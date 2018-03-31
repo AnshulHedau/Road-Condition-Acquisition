@@ -36,8 +36,8 @@ For testing if the Pi has detcted the board connected. Following copmmands are u
 *   **Step 1**
 >   sudo apt-get install i2c-tools
 
-*   **Step 2** 
-    *   *For Revision 1 board*
->   sudo i2cdetect -y 0 
-    *   *For Revision 2 board*
->   sudo i2cdetect -y 1 
+*   **Step 2** (For Revision 1 board) 
+>   sudo i2cdetect -y 0 <br>
+
+*   **Step 2** (For Revision 2 board)
+>   sudo i2cdetect -y 1 <br>
