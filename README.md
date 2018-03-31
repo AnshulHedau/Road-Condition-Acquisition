@@ -20,7 +20,7 @@ It's an I<sup>2</sup>C board so first you need to install the relevant Linux dri
 > #blacklist spi-bcm2708 <br>
 > #blacklist i2c-bcm2708
 
-## Connecting the sensor
+## Connecting the Sensor
 
 We will make use of GPIO pins to make the connections with Pi
 The pins to be connected are
@@ -28,3 +28,16 @@ The pins to be connected are
 * **Pin 3** - SDA connect to SDA
 * **Pin 5** - SCL connect to SCL
 * **Pin 6** - Ground connect to GND
+
+## Verifing the Connections
+
+For testing if the Pi has detcted the board connected. Following copmmands are used to install the i2c tools
+
+*   **Step 1**
+>   sudo apt-get install i2c-tools
+
+*   **Step 2** 
+    *   *For Revision 1 board*
+>   sudo i2cdetect -y 0 
+    *   *For Revision 2 board*
+>   sudo i2cdetect -y 1 
