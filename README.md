@@ -23,8 +23,8 @@ It's an I<sup>2</sup>C board so first you need to install the relevant Linux dri
 ## Connecting the sensor
 
 We will make use of GPIO pins to make the connections with Pi
-* The pins to be connected are
-    * Pin 1 - 3.3V connect to VCC
-    * Pin 3 - SDA connect to SDA
-    * Pin 5 - SCL connect to SCL
-    * Pin 6 - Ground connect to GND
+The pins to be connected are
+* **Pin 1** - 3.3V connect to VCC
+* **Pin 3** - SDA connect to SDA
+* **Pin 5** - SCL connect to SCL
+* **Pin 6** - Ground connect to GND
