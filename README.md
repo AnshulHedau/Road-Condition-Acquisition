@@ -41,3 +41,10 @@ For testing if the Pi has detcted the board connected. Following copmmands are u
 
 *   **Step 2** (For Revision 2 board)
 >   sudo i2cdetect -y 1 <br>
+
+### We need to install the smbus module to read from the I2C using Python bus 
+* **Installation Command**
+> sudo apt-get install python-smbus 
+
+## Congrats, We are done 
+Now execute the above code to check if we are getting the correct data
