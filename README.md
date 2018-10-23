@@ -46,5 +46,5 @@ For testing if the Pi has detcted the board connected. Following copmmands are u
 * **Installation Command**
 > sudo apt-get install python-smbus 
 
-## Congrats, We are done 
-Now execute the above code to check if we are getting the correct data
+## Congrats, we are done!
+Now execute the above code to check if we are getting the correct data.
